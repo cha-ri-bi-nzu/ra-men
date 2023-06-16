@@ -1,0 +1,15 @@
+<h1>⚔️福岡&横浜2大豚骨ラーメンバトルブログ⚔️</h1>
+
+<table>
+  <tr>
+    <th>本日の麺</th>
+    <th>評価</th>
+  </tr>
+
+<% @blogs.each do |blog| %>
+  <tr>
+    <td><%= blog.title %></td>
+    <td><%= blog.content %></td>
+  </tr>
+<% end %>
+</table>
